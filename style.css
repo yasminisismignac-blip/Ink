@@ -1,0 +1,14 @@
+.ih-root .ih-stats { padding: 8px 10px; margin: 6px 0 10px; border-radius: 8px; background: var(--black30a, rgba(0,0,0,.3)); font-size: .9em; line-height: 1.5; }
+.ih-root .ih-last { opacity: .8; font-size: .85em; }
+.ih-root .ih-combo { margin-top: 4px; padding-top: 4px; border-top: 1px dashed var(--SmartThemeBorderColor, #555); }
+.ih-root .ih-presetbar { margin-bottom: 8px; }
+.ih-root .ih-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.ih-root .ih-col { display: flex; flex-direction: column; gap: 4px; }
+.ih-root .ih-num { width: 90px; flex: 0 0 90px; }
+.ih-root .ih-sel { max-width: 55%; }
+.ih-root .ih-field { margin: 6px 0; }
+.ih-root .ih-hint { display: block; opacity: .65; font-size: .8em; margin-top: 2px; }
+.ih-root .ih-section { margin: 6px 0; border-top: 1px solid var(--SmartThemeBorderColor, #444); padding-top: 6px; }
+.ih-root .ih-section > summary { cursor: pointer; font-weight: 600; padding: 4px 0; }
+.ih-root .ih-buttons { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+.ih-preview { white-space: pre-wrap; text-align: left; font-family: monospace; font-size: .85em; max-height: 60vh; overflow: auto; padding: 8px; background: var(--black30a, rgba(0,0,0,.3)); border-radius: 6px; }
